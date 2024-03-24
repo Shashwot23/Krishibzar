@@ -31,7 +31,7 @@ session_start();
         //$mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
 
         $mail->Username="Krishibzar@gmail.com";
-        $mail->Password="ixsmmuvkayioucid";
+        $mail->Password=" "; //your password
 
         $mail->setFrom("Krishibzar@gmail.com","Krishibzar");
         $mail->addAddress($_POST["email"]);
